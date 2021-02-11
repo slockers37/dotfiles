@@ -1,0 +1,367 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+    # # Brightness Control Using xrandr
+  # - trigger: ";br7"
+    # replace: "xrandr --output eDP --brightness 0.7"
+  
+  # - trigger: ";br5"
+    # replace: "xrandr --output eDP --brightness 0.5"
+  
+  # - trigger: ";br3"
+    # replace: "xrandr --output eDP --brightness 0.3"
+
+  # - trigger: ";br1"
+    # replace: "xrandr --output eDP --brightness 1"
+
+    # Editing configs
+  - trigger: ";eac"
+    replace: "v ~/.oh-my-zsh/custom/aliases.zsh"
+
+    # Emails
+  - trigger: ";em1"
+    replace: "sumonsinha37@gmail.com"
+
+  - trigger: ";emy"
+    replace: "sumonsinha951@yahoo.com"
+
+  - trigger: ";emh"
+    replace: "sumonsinha37@hotmail.com"
+
+  - trigger: ";emw"
+    replace: "sinhasumon.37@gmail.com"
+
+  - trigger: ";eme"
+    replace: "slockersred37@gmail.com"
+
+  - trigger: ";em2"
+    replace: "sumonsinha951@gmail.com"
+
+  - trigger: ";alonso"
+    replace: "letsjustgettoit43@gmail.com"
+
+  - trigger: ";samfisher"
+    replace: "samfisherrocks95@gmail.com"
+
+  - trigger: ";hornet"
+    replace: "hornetisthebest@gmail.com"
+
+  - trigger: ";lakshman"
+    replace: "lakshmanrajan0@gmail.com"
+
+  - trigger: ";hubbard"
+    replace: "hubbardzachary1@gmail.com"
+
+  - trigger: ";abhaya"
+    replace: "abhayamore001@gmail.com"
+
+  - trigger: ";franklin"
+    replace: "franklinronald429@gmail.com"
+
+  - trigger: ";akash"
+    replace: "ap0581567@gmail.com"
+
+  # Mobile
+  - trigger: ";mb1"
+    replace: "8761031732"
+
+  - trigger: ";mb2"
+    replace: "8638788394"
+
+  # Github password
+  - trigger: ";gitps"
+    replace: "0D9%1H6i/mp)"
+
+  # # rclone scripts
+  # - trigger: ";G1S"
+  #   replace: "rclone_sa_magic.py -s 0AH0RjtpG-D5CUk9PVA -d 0AB_ZPgiSmD5kUk9PVA -b 1 -e 200"
+
+  # - trigger: ";G1O"
+  #   replace: "rclone_sa_magic.py -s 0AH0RjtpG-D5CUk9PVA -d 0AHCcQAn7U5KkUk9PVA -b 1 -e 200"
+
+  # - trigger: ";G12"
+  #   replace: "rclone_sa_magic.py -s 0AH0RjtpG-D5CUk9PVA -d 0ANFXAez6aOmjUk9PVA -b 1 -e 200"
+
+  # Contractions English
+  - trigger: "arent"
+    replace: "aren't"
+    word: true
+    propagate_case: true
+
+  - trigger: "cant"
+    replace: "can't"
+    word: true
+    propagate_case: true
+
+  - trigger: "couldve"
+    replace: "could've"
+    word: true
+    propagate_case: true
+
+  - trigger: "couldnt"
+    replace: "couldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "doesnt"
+    replace: "doesn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "dont"
+    replace: "don't"
+    word: true
+    propagate_case: true
+
+  - trigger: "didnt"
+    replace: "didn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "hadnt"
+    replace: "hand't"
+    word: true
+    propagate_case: true
+
+  - trigger: "hasnt"
+    replace: "hasn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "havent"
+    replace: "haven't"
+    word: true
+    propagate_case: true
+
+  - trigger: "howd"
+    replace: "how'd"
+    word: true
+    propagate_case: true
+
+  - trigger: "isnt"
+    replace: "isn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "itll"
+    replace: "it'll"
+    word: true
+    propagate_case: true
+
+  - trigger: "mightnt"
+    replace: "mightn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "maam"
+    replace: "ma'am"
+    word: true
+    propagate_case: true
+    
+  - trigger: "mightve"
+    replace: "might've"
+    word: true
+    propagate_case: true
+
+  - trigger: "mustnt"
+    replace: "mustn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "mustve"
+    replace: "must've"
+    word: true
+    propagate_case: true
+
+  - trigger: "shes"
+    replace: "she's"
+    word: true
+    propagate_case: true
+
+  - trigger: "hes"
+    replace: "he's"
+    word: true
+    propagate_case: true
+
+  - trigger: "oclock"
+    replace: "o'clock"
+    word: true
+    propagate_case: true
+
+  - trigger: "shouldnt"
+    replace: "shouldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "shouldve"
+    replace: "should've"
+    word: true
+    propagate_case: true
+
+  - trigger: "thatll"
+    replace: "that'll"
+    word: true
+    propagate_case: true
+
+  - trigger: "thats"
+    replace: "that's"
+    word: true
+    propagate_case: true
+
+  - trigger: "theyd"
+    replace: "they'd"
+    word: true
+    propagate_case: true
+
+  - trigger: "theyll"
+    replace: "they'll"
+    word: true
+    propagate_case: true
+
+  - trigger: "theyve"
+    replace: "they've"
+    word: true
+    propagate_case: true
+
+  - trigger: "wasnt"
+    replace: "wasn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "werent"
+    replace: "weren't"
+    word: true
+    propagate_case: true
+
+  - trigger: "weve"
+    replace: "we've"
+    word: true
+    propagate_case: true
+
+  - trigger: "whend"
+    replace: "when'd"
+    word: true
+    propagate_case: true
+
+  - trigger: "whatd"
+    replace: "what'd"
+    word: true
+    propagate_case: true
+
+  - trigger: "whered"
+    replace: "where'd"
+    word: true
+    propagate_case: true
+
+  - trigger: "whod"
+    replace: "who'd"
+    word: true
+    propagate_case: true
+
+  - trigger: "whyd"
+    replace: "why'd"
+    word: true
+    propagate_case: true
+
+  - trigger: "wont"
+    replace: "won't"
+    word: true
+    propagate_case: true
+
+  - trigger: "wouldnt"
+    replace: "wouldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "wouldve"
+    replace: "would've"
+    word: true
+    propagate_case: true
+
+  - trigger: "youll"
+    replace: "you'll"
+    word: true
+    propagate_case: true
+
+  - trigger: "youve"
+    replace: "you've"
+    word: true
+    propagate_case: true
+
+  - trigger: "youre"
+    replace: "you're"
+    word: true
+    propagate_case: true
+
+  #Doublettes English
+  - trigger: "and and"
+    replace: "and"
+    word: true
+
+  - trigger: "can can"
+    replace: "can"
+    word: true
+
+  - trigger: "be be"
+    replace: "be"
+    word: true
+
+  - trigger: "could could"
+    replace: "could"
+    word: true
+
+  - trigger: "has has"
+    replace: "has"
+    word: true
+
+  - trigger: "if if"
+    replace: "if"
+    word: true
+
+  - trigger: "in in"
+    replace: "in"
+    word: true
+
+  - trigger: "have have"
+    replace: "have"
+    word: true
+
+  - trigger: "should should"
+    replace: "should"
+    word: true
+
+  - trigger: "may may"
+    replace: "may"
+    word: true
+
+  - trigger: "or or"
+    replace: "or"
+    word: true
+
+  - trigger: "the the"
+    replace: "the"
+    word: true
+
+  # Dates
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d/%m/%Y"
+
+  # Shell commands
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo Hello from your shell"
