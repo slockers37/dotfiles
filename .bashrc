@@ -312,6 +312,7 @@ shopt -s expand_aliases # expand aliases
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
 # nvim related stuff
+export EDITOR=nvim
 export VISUAL=nvim
 alias v=nvim
 alias vim=nvim
@@ -329,4 +330,3 @@ alias supacr="sudo pacman -Rsc"
 # (cat ~/.cache/wal/sequences &)
 # export _JAVA_AWT_WM_NONREPARENTING=1
 clear && hfetch
-EDITOR=nvim
