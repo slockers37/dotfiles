@@ -24,6 +24,12 @@ local tags = {
 		gap = beautiful.useless_gap
 	},
 	{
+	    type = 'social',
+	    icon = icons.social,
+	    default_app = 'discord', 'telegram-desktop', 'signal',
+	    gap = beautiful.useless_gap
+	},
+	{
 		type = 'multimedia',
 		icon = icons.multimedia,
 		default_app = apps.default.multimedia,
@@ -37,13 +43,6 @@ local tags = {
 		default_app = apps.default.file_manager,
 		gap = beautiful.useless_gap,
 		layout = awful.layout.suit.tile
-	},
-	{
-		type = 'games',
-		icon = icons.games,
-		default_app = apps.default.game,
-		gap = beautiful.useless_gap,
-		layout = awful.layout.suit.floating
 	},
 	{
 		type = 'graphics',
@@ -66,10 +65,11 @@ local tags = {
 		layout = awful.layout.suit.floating
 	}
 	-- {
-	--   type = 'social',
-	--   icon = icons.social,
-	--   default_app = 'discord',
-	--   gap = beautiful.useless_gap
+	-- 	type = 'games',
+	-- 	icon = icons.games,
+	-- 	default_app = apps.default.game,
+	-- 	gap = beautiful.useless_gap,
+	-- 	layout = awful.layout.suit.floating
 	-- }
 }
 

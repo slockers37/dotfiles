@@ -4,7 +4,7 @@ return {
 			-- Email address
 			address = 'sumonsinha37@gmail.com',
 			-- App password
-			app_password = 'obtfucrwztwyicjg',
+			app_password = 'rpttlgpdpfjomjor',
 			-- Imap server
 			imap_server = 'imap.gmail.com',
 			-- Port

@@ -280,8 +280,8 @@ local global_keys = awful.util.table.join(
 		{description = 'arandr', group = 'hotkeys'}
 	),
 	awful.key(
-		{modkey, 'Shift'},
-		'q',
+		{modkey},
+		'x',
 		function()
 			awesome.emit_signal('module::exit_screen:show')
 		end,
@@ -313,7 +313,7 @@ local global_keys = awful.util.table.join(
 	),
 	awful.key(
 		{modkey},
-		'x',
+		'b',
 		function()
 			awesome.emit_signal('widget::blur:toggle')
 		end,
