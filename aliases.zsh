@@ -171,12 +171,12 @@ alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
 
 #shopt
-shopt -s autocd # change to named directory
-shopt -s cdspell # autocorrects cd misspellings
-shopt -s cmdhist # save multi-line commands in history as single line
-shopt -s dotglob
-shopt -s histappend # do not overwrite history
-shopt -s expand_aliases # expand aliases
+# shopt -s autocd # change to named directory
+# shopt -s cdspell # autocorrects cd misspellings
+# shopt -s cmdhist # save multi-line commands in history as single line
+# shopt -s dotglob
+# shopt -s histappend # do not overwrite history
+# shopt -s expand_aliases # expand aliases
 # shopt -s nocasematch
 
 # nvim related stuff
@@ -193,8 +193,12 @@ alias config='/usr/bin/git --git-dir=/home/slockers37/dotfiles/ --work-tree=/hom
 
 # normal zsh aliases
 alias clr=clear
+alias rn=ranger
 alias hfetch=~/.local/bin/hfetch
+alias cpdragon=~/Documents/scripts/dragon/cpdragon
+alias mvdragon=~/Documents/scripts/dragon/mvdragon
+alias dlfile=~/Documents/scripts/dragon/dlfile
 
 # (cat ~/.cache/wal/sequences &)
 # export _JAVA_AWT_WM_NONREPARENTING=1
-clear && hfetch 
+# clear

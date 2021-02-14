@@ -384,6 +384,14 @@ local global_keys = awful.util.table.join(
 	),
 	awful.key(
 		{modkey}, 
+		'r',
+		function()
+			awful.spawn('alacritty -e ranger')
+		end,
+		{description = 'open ranger', group = 'launcher'}
+	),
+	awful.key(
+		{modkey}, 
 		'h',
 		function()
 			awful.spawn('alacritty -e htop')

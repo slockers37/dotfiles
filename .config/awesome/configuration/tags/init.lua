@@ -24,19 +24,19 @@ local tags = {
 		gap = beautiful.useless_gap
 	},
 	{
+		type = 'multimedia',
+		icon = icons.multimedia,
+		default_app = apps.default.multimedia,
+		gap = beautiful.useless_gap,
+		layout = awful.layout.suit.max,
+		gap = 0
+	},
+	{
 		type = 'files',
 		icon = icons.file_manager,
 		default_app = apps.default.file_manager,
 		gap = beautiful.useless_gap,
 		layout = awful.layout.suit.tile
-	},
-	{
-		type = 'multimedia',
-		icon = icons.multimedia,
-		default_app = apps.default.multimedia,
-		gap = beautiful.useless_gap,
-		layout = awful.layout.suit.floating,
-		gap = 0
 	},
 	{
 		type = 'games',

@@ -21,8 +21,11 @@ matches:
     # replace: "xrandr --output eDP --brightness 1"
 
     # Editing configs
-  - trigger: ";eac"
+  - trigger: "eac"
     replace: "v ~/.oh-my-zsh/custom/aliases.zsh"
+
+  - trigger: "rsac"
+    replace: "rsync ~/.oh-my-zsh/custom/aliases.zsh ~/aliases.zsh"
 
     # Emails
   - trigger: ";em1"
