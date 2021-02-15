@@ -21,15 +21,18 @@ matches:
     # replace: "xrandr --output eDP --brightness 1"
 
     # Editing configs
-  - trigger: "eac"
+  - trigger: ";eac"
     replace: "v ~/.oh-my-zsh/custom/aliases.zsh"
 
-  - trigger: "rsac"
+  - trigger: ";rsac"
     replace: "rsync ~/.oh-my-zsh/custom/aliases.zsh ~/aliases.zsh"
 
     # Emails
   - trigger: ";em1"
     replace: "sumonsinha37@gmail.com"
+
+  - trigger: ";emi"
+    replace: "sumon_s@ph.iitr.ac.in"
 
   - trigger: ";emy"
     replace: "sumonsinha951@yahoo.com"
