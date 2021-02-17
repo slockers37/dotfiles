@@ -386,9 +386,9 @@ local global_keys = awful.util.table.join(
 		{modkey}, 
 		'r',
 		function()
-			awful.spawn('alacritty -e ranger')
+			awful.spawn('alacritty -e lf')
 		end,
-		{description = 'open ranger', group = 'launcher'}
+		{description = 'open lf', group = 'launcher'}
 	),
 	awful.key(
 		{modkey}, 

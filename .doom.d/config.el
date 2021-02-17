@@ -43,8 +43,8 @@
 ;; Org-mode config
 
 (setq org-directory "~/Documents/Emacs/org/"
-      org-roam-directory "~/Documents/Emacs/org/roam"
-      org-journal-dir "~/Documents/Emacs/org/journal"
+      org-roam-directory "~/Documents/Emacs/roam"
+      org-roam-dailies-directory "~/Documents/Emacs/roam/dailies"
       org-agenda-files (ignore-errors (directory-files +org-dir t "\\.org$" t)))
 
 (after! org
@@ -53,10 +53,10 @@
         org-hide-emphasis-markers t))
 
 
-(setq org-journal-date-prefix "#+TITLE: "
-      org-journal-time-prefix "* "
-      org-journal-date-format "%a, %Y-%m-%d"
-      org-journal-file-format "%Y-%m-%d.org")
+;; (setq org-journal-date-prefix "#+TITLE: "
+;;       org-journal-time-prefix "* "
+;;       org-journal-date-format "%a, %Y-%m-%d"
+;;       org-journal-file-format "%Y-%m-%d.org")
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.

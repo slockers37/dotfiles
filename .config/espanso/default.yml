@@ -82,7 +82,7 @@ matches:
 
   # Github password
   - trigger: ";gitps"
-    replace: "0D9%1H6i/mp)"
+    replace: "c2656aed025e0ef17671d736e81b544a2168cf55"
 
   # # rclone scripts
   # - trigger: ";G1S"

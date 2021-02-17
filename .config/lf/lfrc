@@ -188,10 +188,38 @@ map C clear
 map U unselect
 
 # Movement
+
 map gtr cd ~/.local/share/Trash/files
-# map gus cd /run/media/brodie
+
+map gc. cd ~/.config
+map gcl cd ~/.config/lf
+map gcn cd ~/.config/nvim
+map gcb cd ~/.config/bspwm
+map gca cd ~/.config/awesome
+map gcr cd ~/.config/ranger
+map go. cd ~/.oh-my-zsh/custom
+
+map gd. cd ~/Documents
+map gde cd ~/Documents/Emacs/org
+map gdp cd ~/Documents/Projects
+map gdd cd ~/Documents/Drive
+
+map gD. cd ~/Downloads
+map gDc cd ~/Downloads/Compressed
+map gDv cd ~/Downloads/Video
+map gDd cd ~/Downloads/Documents
+
+map gp. cd ~/Pictures
+map gps cd ~/Pictures/Screenshots
 
 map gv. cd ~/Videos
+
+map gU. cd /usr
+map gUs cd /usr/share
+map gE cd /etc
+
+# map gus cd /run/media/brodie
+
 # map gva cd ~/videos/anime
 
 # map gy. cd ~/videos/youtube
@@ -202,10 +230,8 @@ map gv. cd ~/Videos
 # map got cd ~/videos/podcast/ToUpload
 # map gou cd ~/videos/podcast/Uploaded
 
-map gp. cd ~/Pictures
 # map gpm cd ~/pictures/mpvscreenshots
 # map gpa cd ~/pictures/Anime
-map gps cd ~/Pictures/Screenshots
 
 # map gw. cd ~/pictures/Wallpapers
 # map gww cd ~/pictures/Wallpapers/Wallpapers
@@ -216,9 +242,6 @@ map gps cd ~/Pictures/Screenshots
 # map gt2 cd ~/documents/Textbooks/2ndYear
 # map gt3 cd ~/documents/Textbooks/3rdYear
 # map gu3 cd ~/documents/Uni/3rdYear
-map gd. cd ~/Documents
-
-map gD cd ~/Downloads
 # map ge cd ~/desktop
 
 # map gs. cd ~/scripts
@@ -244,16 +267,7 @@ map gD cd ~/Downloads
 # map grs cd ~/repos/st
 # map grw cd ~/repos/website
 
-map gc. cd ~/.config
-map gcl cd ~/.config/lf
-map gcn cd ~/.config/nvim
-map gcb cd ~/.config/bspwm
-map gca cd ~/.config/awesome
-
 # map gC cd ~/.local/share/cell
 # map gl cd ~/.local
-# map gE cd /etc
-# map gU. cd /usr
-# map gUs cd /usr/share
 
 # map \;j cd ~
